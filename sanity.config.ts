@@ -1,14 +1,14 @@
-import {defineConfig, isDev} from 'sanity'
 import {visionTool} from '@sanity/vision'
+import {defineConfig, isDev} from 'sanity'
 import {deskTool} from 'sanity/desk'
-import {schemaTypes} from './schemas'
 import {getStartedPlugin} from './plugins/sanity-plugin-tutorial'
+import {schemaTypes} from './schemas'
 
 const devOnlyPlugins = [getStartedPlugin()]
 
 export default defineConfig({
   name: 'default',
-  title: 'black-anteater',
+  title: 'gray-anteater',
 
   projectId: '1fod7t86',
   dataset: 'production',
@@ -19,4 +19,3 @@ export default defineConfig({
     types: schemaTypes,
   },
 })
-

@@ -14,7 +14,8 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true
+    
   },
-  "include": ["**/*.ts", "**/*.tsx"],
+  "include": ["**/*.ts", "**/*.tsx", "schemas/post.ts", "schemas/index.ts"],
   "exclude": ["node_modules"]
 }
